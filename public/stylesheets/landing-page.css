@@ -286,7 +286,7 @@
 	border-radius: 35px;
 	background: #ff9f43;
 	border: none;
-	font-family: Roboto-Medium;
+	font-family: Roboto-Bold;
 	font-size: 11px;
 	letter-spacing: 2.4px;
 	color: white;
@@ -503,4 +503,8 @@
 #modal ul > li > #fix-act {
 	font-family: Roboto-Bold;
 	color: #91c544;
+}
+
+#close {
+	cursor: pointer;
 }
