@@ -1,4 +1,4 @@
-
+	
 let modal,
 	menu,
 	close;
@@ -19,3 +19,10 @@ let modal,
 		modal.style.top = '-100%';
 	}
 
+
+let about;
+
+	about = document.getElementById('executeAbout');
+	about.addEventListener('click', AboutPage);
+
+	function AboutPage() { document.location = "o-nama.html"; }
