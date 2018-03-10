@@ -1,0 +1,419 @@
+#wrapper {
+	width: 1280px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.nav-bar {
+	width: 100%;
+	height: 100px;
+}
+
+.nav-bar ul {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.nav-bar ul > li {
+	display: inline-block;
+	padding: 0px 30px 0px 30px;
+}
+
+.nav-bar a {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #bebdbd;
+	letter-spacing: 1.5px;
+}
+
+.nav-bar a:hover {
+	transition: .2s;
+	color: black;
+}
+
+#active {
+	font-family: Roboto-Bold;
+	color: #ff9f43;
+}
+
+.hero {
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/kontakt-background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+#menu {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	right: 40px;
+	top: 35px;
+	cursor: pointer;
+	display: none;
+}
+
+.helper-text {
+	font-size: 18px;
+	color: #8b8b8b;
+	letter-spacing: 1.8px;
+	font-family: Roboto-Regular;
+	line-height: 250%;
+	display: none;
+}
+
+#modal {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: white;
+	top: -100%;
+	left: 0px;
+	z-index: 100;
+}
+
+#close {
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+}
+
+#modal ul {
+	width: 100%;
+	height: auto;
+	margin-top: 150px;
+	text-align: center;
+}
+
+#modal ul > li {
+	margin-top: 40px;
+}
+
+#modal ul > li > a {
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	color: #bebdbd;
+	letter-spacing: 1.5px;
+}
+
+#modal ul > li > #fix-act {
+	font-family: Roboto-Bold;
+	color: #91c544;
+}
+
+#close {
+	cursor: pointer;
+}
+
+
+.footer {
+	width: 100%;
+	height: 140px;
+}
+
+.left-footer {
+	float: left;
+}
+
+.copyright {
+	font-family: Roboto-Medium;
+	font-size: 11px;
+	color: #7a7a7a;
+	letter-spacing: 1.5px;
+	line-height: 140px;
+	margin-left: 40px;
+}
+
+.footer ul {
+	float: right;
+	width: auto;
+	height: auto;
+	margin-top: 55px;
+	margin-right: 20px;
+}
+
+.footer ul > li {
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
+
+.footer ul > li > a {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #bebdbd;
+	letter-spacing: 1.5px;
+}
+
+.footer ul > li > a:hover {
+	transition: .2s;
+	color: black;
+}
+
+.footer ul > li > .sec-act {
+	color: #ff9f43;
+	font-family: Roboto-Bold;
+}
+
+.logo {
+	margin-top: 130px;
+	text-align: left;
+	margin-left: 255px;
+}
+
+.about-title {
+	font-family: Roboto-Light;
+	font-size: 40px;
+	color: #4d4c4c;
+	letter-spacing: 1.6px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 255px;
+}
+
+.about-sub {
+	font-family: Roboto-Light;
+	color: #939393;
+	font-size: 14px;
+	letter-spacing: 1.2px;
+	text-align: left;
+	margin-left: 255px;
+}
+
+.social {
+	transition: .3s;
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	background: white;
+	-webkit-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	-moz-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	float: right;
+	margin-top: -170px;
+	margin-right: 255px;
+	text-align: center;
+ 	cursor: pointer;
+ 	border-radius: 35px;
+}
+
+.social:hover {
+	border: 2px solid #ff9f43;
+	transition: .3s;
+}
+
+.social img {
+ 	margin-top: 14px;
+}
+
+.social-2 {
+	margin-top: -85px;
+}
+
+.kontakt-wrapper {
+	width: 850px;
+	height: 285px;
+	background: white;
+	-webkit-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	-moz-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	margin: 0 auto;
+	margin-top: -140px;
+}
+
+
+.contact-left {
+	width: 40%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin-left: 10%;
+}
+
+.contact-right {
+	width: 40%;
+	height: 100%;
+	float: right;
+	text-align: center;
+	margin-right: 10%;
+}
+
+.contact-image {
+	margin-top: 55px;
+}
+
+.contact-text {
+	font-family: Roboto-Regular;
+	color: #a5a5a5;
+	letter-spacing: 1.4px;
+	line-height: 250%;
+	font-size: 14px;	
+	margin-top: 10px;
+}
+
+.mail-div {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+.mail-div .heading {
+	font-family: Roboto-Bold;
+	font-size: 36px;
+	color: #ececec;
+	letter-spacing: .5px;
+	line-height: 35px;
+	overflow-y: hidden;
+}
+
+.mail {
+	font-family: Roboto-Regular;
+	margin-top: 30px;
+	font-size: 17px;
+	color: #474747;
+	letter-spacing: 1.7px;
+}
+
+@media (max-width: 1279px) {
+	#wrapper {
+		width: 100%;
+	}
+
+	.logo {
+		margin-left: 15%;
+	}
+
+	.about-title {
+		margin-left: 15%;
+	}
+
+	.about-sub {
+		margin-left: 15%;
+	}
+}
+
+
+@media (max-width: 950px) {
+	.nav-bar {
+		display: none;
+	}
+
+	#menu {
+		display: block;
+	}
+
+	.footer {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.copyright {
+		margin-left: 0px;
+	}
+
+	.left-footer {
+		width: 100%;
+	}
+
+	.right-footer {
+		width: 100%;
+	}
+
+	.footer ul {
+		margin-top: 0px;
+		margin-bottom: 60px;
+		float: none;
+	}
+
+	.about-wrapper {
+		width: 100%;
+	}
+
+	.main-p {
+		padding: 0px 20px 0px 20px;
+	}
+
+	.logo {
+		margin-top: 130px;
+	}
+
+	.hero {
+		background-image: none;
+		text-align: center;
+	}
+
+	.logo {
+		float: none;
+		margin-left: 0px;
+	}
+
+	.about-title {
+		float: none;
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	.about-sub {
+		float: none;
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	.social {
+		transition: .3s;
+		width: 60px;
+		height: 60px;
+		margin: 0 auto;
+		background: white;
+		-webkit-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+		-moz-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+		box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+		position: absolute;
+		top: 320px;
+		left: 50%;
+		transform: translate(0px,50%);
+		text-align: center;
+	 	cursor: pointer;
+	 	border-radius: 35px;
+	}
+
+	.social-2 {
+		left: 42%;
+		transform: translate(0px,50%);
+	}
+
+	.kontakt-wrapper {
+		width: 100%;
+		height: auto;
+	}
+
+	.contact-left {
+		width: 100%;
+		float: none;
+		margin-left: 0px;
+	}
+
+	.contact-right {
+		width: 100%;
+		float: none;
+		margin-bottom: 40px;
+	}
+
+}
+
+
+@media (max-width: 550px) {
+	.social-2 {
+		left: 33%;
+		transform: translate(0px,50%);
+	}
+
+}

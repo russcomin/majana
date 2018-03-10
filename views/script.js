@@ -26,3 +26,8 @@ let about;
 	about.addEventListener('click', AboutPage);
 
 	function AboutPage() { document.location = "o-nama.html"; }
+
+let proiz = document.getElementById('proizvodi-big');
+	proiz.addEventListener('click', proizvodi);
+
+	function proizvodi() { document.location = "proizvodi.html" }

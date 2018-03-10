@@ -1,0 +1,456 @@
+#wrapper {
+	width: 1280px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.nav-bar {
+	width: 100%;
+	height: 100px;
+}
+
+.nav-bar ul {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.nav-bar ul > li {
+	display: inline-block;
+	padding: 0px 30px 0px 30px;
+}
+
+.nav-bar a {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #bebdbd;
+	letter-spacing: 1.5px;
+}
+
+.nav-bar a:hover {
+	transition: .2s;
+	color: black;
+}
+
+#active {
+	font-family: Roboto-Bold;
+	color: #ff9f43;
+}
+
+.hero {
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/p-mesta-background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+#menu {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	right: 40px;
+	top: 35px;
+	cursor: pointer;
+	display: none;
+}
+
+.helper-text {
+	font-size: 18px;
+	color: #8b8b8b;
+	letter-spacing: 1.8px;
+	font-family: Roboto-Regular;
+	line-height: 250%;
+	display: none;
+}
+
+#modal {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: white;
+	top: -100%;
+	left: 0px;
+	z-index: 100;
+}
+
+#close {
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+}
+
+#modal ul {
+	width: 100%;
+	height: auto;
+	margin-top: 150px;
+	text-align: center;
+}
+
+#modal ul > li {
+	margin-top: 40px;
+}
+
+#modal ul > li > a {
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	color: #bebdbd;
+	letter-spacing: 1.5px;
+}
+
+#modal ul > li > #fix-act {
+	font-family: Roboto-Bold;
+	color: #91c544;
+}
+
+#close {
+	cursor: pointer;
+}
+
+
+.footer {
+	width: 100%;
+	height: 140px;
+}
+
+.left-footer {
+	float: left;
+}
+
+.copyright {
+	font-family: Roboto-Medium;
+	font-size: 11px;
+	color: #7a7a7a;
+	letter-spacing: 1.5px;
+	line-height: 140px;
+	margin-left: 40px;
+}
+
+.footer ul {
+	float: right;
+	width: auto;
+	height: auto;
+	margin-top: 55px;
+	margin-right: 20px;
+}
+
+.footer ul > li {
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
+
+.footer ul > li > a {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #bebdbd;
+	letter-spacing: 1.5px;
+}
+
+.footer ul > li > a:hover {
+	transition: .2s;
+	color: black;
+}
+
+.footer ul > li > .sec-act {
+	color: #ff9f43;
+	font-family: Roboto-Bold;
+}
+
+.logo {
+	margin-top: 90px;
+	text-align: left;
+	margin-left: 255px;
+}
+
+.about-title {
+	font-family: Roboto-Light;
+	font-size: 40px;
+	color: #4d4c4c;
+	letter-spacing: 1.6px;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 255px;
+}
+
+.about-sub {
+	font-family: Roboto-Light;
+	color: #939393;
+	font-size: 14px;
+	letter-spacing: 1.2px;
+	text-align: left;
+	margin-left: 255px;
+	margin-top: 15px;
+}
+
+.apoteka {
+	width: 350px;
+	height: 165px;
+	border-bottom: 2px solid #ff9f43;
+	float: right;
+	background: white;
+	-webkit-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	-moz-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	margin-top: -200px;
+	margin-right: 14%;
+}
+
+.box-title {
+	font-family: Roboto-Regular;
+	font-size: 24px;
+	color: #ff9f43;
+	letter-spacing: 1.6px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.box-text {
+	font-family: Roboto-Regular;
+	font-size: 14px;
+	color: #9d9d9d;
+	letter-spacing: 1.2px;
+	margin-left: 30px;
+	margin-top: 10px;
+	line-height: 170%;
+}
+
+.box-phone {
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	color: #747474;
+	letter-spacing: 1.4px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.lista {
+	width: 570px;
+	height: auto;
+	margin: 0 auto;
+	background: white;
+	-webkit-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	-moz-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	margin-top: -150px;	
+}
+
+.lista-title {
+	font-family: Roboto-Bold;
+	font-size: 12px;
+	color: #747474;
+	letter-spacing: 1.7px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.lista-apoteka {
+	width: 486px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.apoteka-field {
+	width: 484px;
+	height: 57px;
+	border-right: 2px solid #ff9f43;
+	background: #f7f7f7;
+	margin-top: 15px;
+}
+
+.strong-tit {
+	font-family: Roboto-Bold;
+	font-size: 11px;
+	color: #b3b3b3;
+	letter-spacing: 1.4px;
+}
+
+.apoteka-name {
+	font-family: Roboto-Regular;
+	font-size: 13px;
+	color: #383838;
+	letter-spacing: 1.2px;
+	margin-top: 10px;
+	float: left;
+	line-height: 135%;
+}
+
+.name {
+	float: left;
+	width: 195px;	
+	margin-left: 20px;
+}
+
+.adresa-div {
+	float: left;
+	width: auto;
+}
+
+.normal {
+	margin-top: 40px;
+}
+
+
+@media (max-width: 1279px) {
+	#wrapper {
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 950px) {
+	.nav-bar {
+		display: none;
+	}
+
+	#menu {
+		display: block;
+	}
+
+	.footer {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.copyright {
+		margin-left: 0px;
+	}
+
+	.left-footer {
+		width: 100%;
+	}
+
+	.right-footer {
+		width: 100%;
+	}
+
+	.footer ul {
+		margin-top: 0px;
+		margin-bottom: 60px;
+		float: none;
+	}
+
+	.about-wrapper {
+		width: 100%;
+	}
+
+	.main-p {
+		padding: 0px 20px 0px 20px;
+	}
+
+	.logo {
+		margin-top: 130px;
+	}
+
+	.hero {
+		background-image: url(../images/mesta-small.jpg);
+		text-align: center;
+	}
+
+
+	.logo {
+		margin-top: 120px;
+		text-align: left;
+		margin-left: 0px;
+	}
+
+	.about-title {
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.about-sub {
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.apoteka {
+		width: 350px;
+		height: 165px;
+		border-bottom: 2px solid #ff9f43;
+		float: none;
+		background: white;
+		-webkit-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+		-moz-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+		box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+		margin-right: 0px;
+		margin: 0 auto;
+		margin-top: 45px;
+	}
+
+	.prva {
+		margin-top: 40px;
+	}
+
+}
+
+@media (max-width: 530px) {
+	.apoteka {
+		width: 90%;
+	}
+
+	.lista {
+		width: 100%;		
+	}
+
+	.lista-title {
+		font-family: Roboto-Bold;
+		font-size: 12px;
+		color: #747474;
+		letter-spacing: 1.7px;
+		margin-top: 40px;
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	.box-title {
+		margin-left: 0px;
+	}
+
+	.box-text {
+		margin-left: 0px;
+	}
+
+	.box-phone {
+		margin-left: 0px;
+	}
+
+	.lista-apoteka {
+		width: 100%;
+	}
+
+	.name {
+		float: none;
+		width: 100%;	
+		margin-left: 0px;
+	}
+
+	.apoteka-name {
+		float: none;
+		text-align: center;
+	}
+
+	.adresa-div {
+		float: none;
+		width: 100%;
+		padding-left: 0px;
+		margin-bottom: 20px;	
+	}
+
+	.apoteka-field {
+		width: 270px;
+		height: auto;
+		border-right: 2px solid #ff9f43;
+		background: #f7f7f7;
+		margin: 0 auto;
+		margin-top: 15px;
+		text-align: center;
+	}
+
+}
