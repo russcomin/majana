@@ -31,3 +31,8 @@ let proiz = document.getElementById('proizvodi-big');
 	proiz.addEventListener('click', proizvodi);
 
 	function proizvodi() { document.location = "proizvodi.html" }
+
+let kupovina = document.getElementById('kupovina');
+	kupovina.addEventListener('click', exKupovina);
+
+	function exKupovina() { document.location = "https://www.hiper.rs/pretraga?rec=majana" }

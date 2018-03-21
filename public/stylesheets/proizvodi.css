@@ -280,6 +280,7 @@
 }
 
 .proizvod-slika {
+	width: 250px;
 	margin-left: 10px;
 	margin-top: 40px;
 }
@@ -307,16 +308,22 @@
 
 .proizvod-1 {
 	margin-top: 40px;
-	height: 210px;
+	height: 725px;
+}
+
+.proizvod-1 .proizvod-slika {
+	margin-top: 180px;
+	width: 160px;
 }
 
 .proizvod-2 {
 	margin-top: 40px;
-	height: 600px;
+	height: 635px;
 }
 
 .proizvod-2 .proizvod-slika {
-	margin-top: 170px;
+	margin-top: 160px;
+	width: 160px;
 }
 
 .proizvod-3 {
@@ -325,26 +332,99 @@
 }
 
 .proizvod-3 .proizvod-slika {
-	margin-top: 130px;
+	margin-top: 160px;
+	width: 240px;
 }
 
 .proizvod-4 {
 	margin-top: 40px;
-	height: 420px;
+	height: 590px;
 }
 
 .proizvod-4 .proizvod-slika {
-	margin-top: 130px;
+	margin-top: 200px;
 }
 
 .proizvod-5 {
 	margin-top: 40px;
-	height: 445px;
+	height: 565px;
 }
 
 .proizvod-5 .proizvod-slika {
-	margin-top: 90px;
+	margin-top: 80px;
 	margin-left: 35px;
+	width: 150px;
+}
+
+.proizvod-6 {
+	margin-top: 40px;
+	height: 395px;
+}
+
+.proizvod-6 .proizvod-slika {
+	margin-top: 90px;
+	width: 210px;
+}
+
+.proizvod-7 {
+	margin-top: 40px;
+	height: 375px;
+}
+
+.proizvod-7 .proizvod-slika {
+	margin-top: 90px;
+	width: 210px;
+}
+
+.proizvod-8 {
+	margin-top: 40px;
+	height: 805px;
+}
+
+.proizvod-8 .proizvod-slika {
+	margin-top: 290px;
+	width: 230px;
+}
+
+.proizvod-9 {
+	height: 465px;
+}
+
+.proizvod-9 .proizvod-slika {
+	margin-top: 40px;
+}
+
+.proizvod-10 {
+	height: 480px;
+}
+
+.proizvod-10 .proizvod-slika {
+	margin-top: 85px;
+}
+
+.proizvod-11 {
+	height: 400px;
+}
+
+.proizvod-11 .proizvod-slika {
+	margin-top: 115px;
+}
+
+.proizvod-12 {
+	height: 300px;
+}
+
+.proizvod-12 .proizvod-slika {
+	margin-top: 55px;
+}
+
+.proizvod-13 {
+	height: 310px;
+}
+
+.proizvod-13 .proizvod-slika {
+	margin-top: 10px;
+	width: 100px;
 }
 
 .strong {
@@ -468,42 +548,51 @@
 		margin-left: 0px;
 	}
 
-	.proizvod-1 {
-		margin-top: 40px;
-	}
-
-	.proizvod-2 {
-		margin-top: 40px;
-	}
-
-	.proizvod-3 {
-		margin-top: 40px;
-	}
-
-	.proizvod-4 {
-		margin-top: 40px;
-	}
-
-	.proizvod-5 {
+	.proizvod {
 		margin-top: 40px;
 	}
 
 	.proizvod-1 .proizvod-slika{
 		margin-top: 20px;
+		margin-left: 0px;
+		margin-bottom: 20px;
 	}
 	.proizvod-2 .proizvod-slika {
 		margin-top: 30px;
+		margin-left: 0px;
+		margin-bottom: 20px;
 	}
 	.proizvod-3 .proizvod-slika {
 		margin-top: 30px;
+		margin-left: 0px;
+		margin-bottom: 20px;
 	}
 	.proizvod-4 .proizvod-slika {
 		margin-top: 30px;
+		margin-left: 0px;
+		margin-bottom: 20px;
 	}
+	.proizvod-6 .proizvod-slika {
+		margin-top: 30px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}	
 	.proizvod-5 .proizvod-slika {
 		margin-top: 20px;
 		margin-left: 25px;
+		margin-bottom: 20px;
 	}
+	.proizvod-7 .proizvod-slika {
+		margin-top: 20px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+	.proizvod-8 .proizvod-slika {
+		margin-top: 20px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+
 
 	.strong-title {
 		margin-top: 60px;
