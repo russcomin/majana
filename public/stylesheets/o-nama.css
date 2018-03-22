@@ -6,7 +6,8 @@
 
 .nav-bar {
 	width: 100%;
-	height: 100px;
+	height: 100px;	
+	border-bottom: 1px solid #ebebeb;
 }
 
 .nav-bar ul {
@@ -40,12 +41,141 @@
 
 .hero {
 	width: 100%;
-	height: 915px;
+	height: 584px;
 	background-image: url(../images/o-nama-background.jpg);
-	background-position: center;
+	background-position: left;
 	background-repeat: no-repeat;
 	background-size: cover;	
-	text-align: center;
+}
+
+.strong-title {
+	font-family: Roboto-Light;
+	font-size: 40px;
+	color: #4d4c4c;
+	letter-spacing: 1.6px;
+	margin-top: 20px;
+	margin-left: 270px;
+}
+
+.content-left {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.content-left .logo {
+	margin-top: 120px;
+}
+
+.title {
+	font-family: Roboto-Light;
+	font-size: 50px;
+	color: #4e4e4e;
+	text-align: left;
+	margin-top: 60px;
+	letter-spacing: 1.5px;
+}
+
+.sub-title {
+	font-family: Roboto-Light;
+	font-size: 16px;
+	color: #6a6a6a;
+	line-height: 220%;
+	letter-spacing: 1.4px;
+	margin-top: 20px;
+}
+
+.proizvodi {
+	transition: .4s;
+	margin-top: 30px;
+	width: 195px;
+	height: 52px;
+	background-color: #91c544;
+	border: none;
+	color: white;
+	font-family: Roboto-Bold;
+	font-size: 10px;
+	letter-spacing: 2.4px;
+	cursor: pointer;
+}
+
+.proizvodi:hover{
+	transition: .4s;
+	color: #91c544;
+	background: none;
+	border: 2px solid #91c544;
+}
+
+.m-fix {
+	margin-left: 195px;
+}
+
+.line {
+	width: 1px;
+	height: 130px;
+	background: #dfdfdf;
+	margin-left: 290px;
+	border: none;
+	margin-top: 40px;
+}
+
+.proizvodi-wrapper {
+	width: 920px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: -85px;
+	background: white;
+	-webkit-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	-moz-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+	box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
+}
+
+.footer {
+	width: 100%;
+	height: 140px;
+}
+
+.left-footer {
+	float: left;
+}
+
+.copyright {
+	font-family: Roboto-Medium;
+	font-size: 11px;
+	color: #7a7a7a;
+	letter-spacing: 1.5px;
+	line-height: 140px;
+	margin-left: 40px;
+}
+
+.footer ul {
+	float: right;
+	width: auto;
+	height: auto;
+	margin-top: 55px;
+	margin-right: 20px;
+}
+
+.footer ul > li {
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
+
+.footer ul > li > a {
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #bebdbd;
+	letter-spacing: 1.5px;
+}
+
+.footer ul > li > a:hover {
+	transition: .2s;
+	color: black;
+}
+
+.footer ul > li > .sec-act {
+	color: #ff9f43;
+	font-family: Roboto-Bold;
 }
 
 #menu {
@@ -112,161 +242,21 @@
 	cursor: pointer;
 }
 
-
-.footer {
-	width: 100%;
-	height: 140px;
-}
-
-.left-footer {
-	float: left;
-}
-
-.copyright {
-	font-family: Roboto-Medium;
-	font-size: 11px;
-	color: #7a7a7a;
-	letter-spacing: 1.5px;
-	line-height: 140px;
-	margin-left: 40px;
-}
-
-.footer ul {
-	float: right;
-	width: auto;
-	height: auto;
-	margin-top: 55px;
-	margin-right: 20px;
-}
-
-.footer ul > li {
-	display: inline-block;
-	padding: 0px 10px 0px 10px;
-}
-
-.footer ul > li > a {
-	font-family: Roboto-Regular;
-	font-size: 12px;
-	color: #bebdbd;
-	letter-spacing: 1.5px;
-}
-
-.footer ul > li > a:hover {
-	transition: .2s;
-	color: black;
-}
-
-.footer ul > li > .sec-act {
-	color: #ff9f43;
-	font-family: Roboto-Bold;
-}
-
-.logo {
-	margin-top: 70px;
-}
-
-.about-title {
-	font-family: Roboto-Light;
-	font-size: 40px;
-	color: #4d4c4c;
-	letter-spacing: 1.6px;
-	margin-top: 30px;
-}
-
-.about-sub {
-	font-family: Roboto-Light;
-	color: #939393;
-	font-size: 14px;
-	letter-spacing: 1.2px;
-}
-
-.about-wrapper {
-	width: 950px;
-	height: auto;
-	margin: 0 auto;
-	margin-top: -85px;
-	background: white;
-	-webkit-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
-	-moz-box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
-	box-shadow: 0px -1px 21px 1px rgba(0,0,0,0.06);
-	text-align: center;
-}
-
-.main-title {
+.about-t {
 	color: #696969;
-	font-family: Roboto-Bold;
 	font-size: 18px;
+	font-family: Roboto-Bold;
 	letter-spacing: 1.2px;
-	margin-top: 80px;
+	margin-top: 70px;
+	margin-left: 60px;
 }
 
-.main-p {
-	color: #5f5e5e;
-	font-size: 14px;
-	font-family: Roboto-Light;
-	letter-spacing: 1px;
+.about-p {
+	margin-left: 60px;
+	margin-top: 30px;
+	letter-spacing: 1.4px;
+	font-family: Roboto-Regular;
 	line-height: 260%;
-	margin-top: 50px;
-	margin-bottom: 70px;
-}
-
-@media (max-width: 1279px) {
-	#wrapper {
-		width: 100%;
-	}
-}
-
-
-@media (max-width: 950px) {
-	.nav-bar {
-		display: none;
-	}
-
-	#menu {
-		display: block;
-	}
-
-	.footer {
-		width: 100%;
-		height: auto;
-		text-align: center;
-	}
-
-	.copyright {
-		margin-left: 0px;
-	}
-
-	.left-footer {
-		width: 100%;
-	}
-
-	.right-footer {
-		width: 100%;
-	}
-
-	.footer ul {
-		margin-top: 0px;
-		margin-bottom: 60px;
-		float: none;
-	}
-
-	.about-wrapper {
-		width: 100%;
-	}
-
-	.main-p {
-		padding: 0px 20px 0px 20px;
-	}
-
-	.logo {
-		margin-top: 130px;
-	}
-
-}
-
-@media (max-width: 550px) {
-	.hero {
-		background-image: url(../images/o-nama-small.jpg);
-		height: 700px;
-	}
+	color: #5f5e5e;
+	margin-bottom: 40px;
 }

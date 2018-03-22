@@ -207,7 +207,7 @@
 	color: #515151;
 	letter-spacing: 1.4px;
 	line-height: 120%;
-	margin-top: 60px;
+	margin-top: 85px;
 	margin-left: 110px;
 }
 
@@ -308,21 +308,21 @@
 
 .proizvod-1 {
 	margin-top: 40px;
-	height: 725px;
+	height: 605px;
 }
 
 .proizvod-1 .proizvod-slika {
-	margin-top: 180px;
+	margin-top: 125px;
 	width: 160px;
 }
 
 .proizvod-2 {
 	margin-top: 40px;
-	height: 635px;
+	height: 575px;
 }
 
 .proizvod-2 .proizvod-slika {
-	margin-top: 160px;
+	margin-top: 140px;
 	width: 160px;
 }
 
@@ -332,86 +332,88 @@
 }
 
 .proizvod-3 .proizvod-slika {
-	margin-top: 160px;
+	margin-top: 165px;
 	width: 240px;
 }
 
 .proizvod-4 {
 	margin-top: 40px;
-	height: 590px;
+	height: 480px;
 }
 
 .proizvod-4 .proizvod-slika {
-	margin-top: 200px;
+	margin-top: 155px;
 }
 
 .proizvod-5 {
 	margin-top: 40px;
-	height: 565px;
+	height: 445px;
 }
 
 .proizvod-5 .proizvod-slika {
-	margin-top: 80px;
+	margin-top: 20px;
 	margin-left: 35px;
 	width: 150px;
 }
 
 .proizvod-6 {
 	margin-top: 40px;
-	height: 395px;
+	height: 355px;
 }
 
 .proizvod-6 .proizvod-slika {
-	margin-top: 90px;
+	margin-top: 80px;
 	width: 210px;
 }
 
 .proizvod-7 {
 	margin-top: 40px;
-	height: 375px;
+	height: 325px;
 }
 
 .proizvod-7 .proizvod-slika {
-	margin-top: 90px;
+	margin-top: 80px;
 	width: 210px;
 }
 
 .proizvod-8 {
 	margin-top: 40px;
-	height: 805px;
+	height: 715px;
 }
 
 .proizvod-8 .proizvod-slika {
-	margin-top: 290px;
+	margin-top: 250px;
+	margin-left: -2px;
 	width: 230px;
 }
 
 .proizvod-9 {
-	height: 465px;
+	height: 355px;
 }
 
 .proizvod-9 .proizvod-slika {
-	margin-top: 40px;
+	width: 120px;
+	margin-top: 25px;
 }
 
 .proizvod-10 {
-	height: 480px;
+	height: 410px;
 }
 
 .proizvod-10 .proizvod-slika {
-	margin-top: 85px;
+	margin-top: 55px;
 }
 
 .proizvod-11 {
-	height: 400px;
+	height: 320px;
 }
 
 .proizvod-11 .proizvod-slika {
-	margin-top: 115px;
+	margin-top: 95px;
 }
 
 .proizvod-12 {
-	height: 300px;
+	height: 280px;
 }
 
 .proizvod-12 .proizvod-slika {
@@ -426,6 +428,37 @@
 	margin-top: 10px;
 	width: 100px;
 }
+
+.proizvod-15 {
+	height: 310px;
+}
+
+.proizvod-15 .proizvod-slika {
+	margin-top: 35px;
+	width: 200px;
+}
+
+.proizvod-16 {
+	height: 250px;
+}
+
+.proizvod-16 .proizvod-slika {
+	margin-top: 35px;
+	width: 200px;
+}
+
+.proizvod-17 {
+	height: 690px;
+}
+
+.proizvod-17 .proizvod-slika {
+	margin-top: 165px;
+	width: 200px;
+	margin-left: -2px;
+}
+
+
+
 
 .strong {
 	font-family: Roboto-Bold;
