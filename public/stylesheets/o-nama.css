@@ -256,7 +256,94 @@
 	margin-top: 30px;
 	letter-spacing: 1.4px;
 	font-family: Roboto-Regular;
+	font-size: 15px;
 	line-height: 260%;
 	color: #5f5e5e;
 	margin-bottom: 40px;
+}
+
+
+@media (max-width: 1279px) {
+	#wrapper {
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 950px) {
+	.nav-bar {
+		display: none;
+	}
+
+	#menu {
+		display: block;
+	}
+
+	.footer {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.copyright {
+		margin-left: 0px;
+	}
+
+	.left-footer {
+		width: 100%;
+	}
+
+	.right-footer {
+		width: 100%;
+	}
+
+	.footer ul {
+		margin-top: 0px;
+		margin-bottom: 60px;
+		float: none;
+	}
+
+	.about-wrapper {
+		width: 100%;
+	}
+
+	.main-p {
+		padding: 0px 20px 0px 20px;
+	}
+
+	.logo {
+		margin-top: 430px;
+	}
+
+	.content-left{
+		height: 500px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.m-fix {
+		margin-left: 0px;
+	}
+
+	.hero {
+		height: 590px;
+		background-image: url(../images/o-nama-small.jpg);
+		background-position: center;
+	}
+
+	.proizvodi-wrapper{
+		width: 100%;
+	}
+
+	.about-p {
+		text-align: center;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.about-t {
+		margin-left: 0px;
+		text-align: center;
+	}
+
 }
